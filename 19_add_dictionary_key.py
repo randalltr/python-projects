@@ -8,3 +8,5 @@ d = {"a": 1, "b": 2}
 
 d["c"] = 3
 print(d)
+
+# Unable to easily change position of "c" but dictionaries are unordered
