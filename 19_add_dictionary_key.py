@@ -5,3 +5,6 @@ d = {"a": 1, "b": 2}
 
 # Expected output:
 #   {'a': 1, 'c': 3, 'b': 2}
+
+d["c"] = 3
+print(d)
