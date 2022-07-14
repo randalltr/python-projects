@@ -5,3 +5,5 @@ d = {"a": 1, "b": 2, "c": 3}
 
 # Expected output: 
 # {'a': 1}  
+
+print(x in d.values() if x <= 1)
