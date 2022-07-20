@@ -10,5 +10,8 @@ d = dict(a=list(range(1, 11)), b=list(range(11, 21)), c=list(range(21, 31)))
 # c has value [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 # a has value [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for i in d.keys():
-    print(f"{i} has value {d[i]}")
+# for i in d.keys():
+#     print(f"{i} has value {d[i]}")
+
+for key, value in d.items():
+    print(f"{key} has value {value}")
