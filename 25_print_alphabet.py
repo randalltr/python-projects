@@ -2,5 +2,5 @@
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-for i in alphabet.split():
-    print(f"{i}\n")
+for i in alphabet:
+    print(i)
